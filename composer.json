@@ -1,0 +1,31 @@
+{
+    "name": "php-fhir/common",
+    "description": "Common classes for the PHP implementation of the FHIR EHR specification",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "fhir",
+        "ehr",
+        "hl7",
+        "php-fhir"
+    ],
+    "homepage": "https://github.com/dcarbone/php-fhir-common",
+    "authors": [
+        {
+            "name": "Daniel Carbone",
+            "email": "daniel.p.carbone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "lib-libxml": "*",
+        "dcarbone/collection-plus": "2.1.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "FHIR\\Common\\": "src/"
+        }
+    }
+}
