@@ -19,10 +19,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "lib-libxml": "*",
         "dcarbone/collection-plus": "2.1.*"
     },
-
     "autoload": {
         "psr-4": {
             "FHIR\\Common\\": "src/"
