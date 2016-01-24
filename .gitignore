@@ -54,3 +54,4 @@ crashlytics.properties
 crashlytics-build.properties
 
 composer.lock
+/.svn
